@@ -202,12 +202,12 @@
             }
             .accor{
                 font-family:'robotoSerif-regular';
-                color: #212529;
+                color: #000;
             }
             b{
-                color: #090a0b !important;
-                font-size: 9.5px !important;
-                font-family: 'robotoSerif-Medium' !important;
+                color: #000 !important;
+                font-size: 10px !important;
+                font-family: 'RobotoSerif-SemiBold' !important;
             }
             @media all
             and (-moz-min-device-pixel-ratio: 1.09) and (-moz-max-device-pixel-ratio: 1.18),
@@ -246,7 +246,7 @@
                 (-webkit-min-device-pixel-ratio: 1.61) and (-webkit-max-device-pixel-ratio: 1.8),
                 (min-resolution: 1.61dppx) and (max-resolution: 1.8dppx) {
                 :root {
-                    font-size: 9px;
+                    font-size: 12px;
                 }
             }
             @media all
@@ -264,7 +264,7 @@
                 font-size:12px;
             }
             .fs_4{
-                font-size:15px;
+                font-size:14px;
             }
             #loader {
               position: fixed;
@@ -411,7 +411,7 @@
                     background-color:#f4d529 !important;
                 }
                 .onepc p b,.forecm p b,.threecm p b,.twocm p b,.plates_text p b{
-                    font-size: 9px !important;
+                    font-size: 10px !important;
                 }
                 
                 .border_{
@@ -456,4 +456,7 @@
                 
                 .paltes_text{
                     font-size: 9.5px;
+                }
+                button{
+                    border-width: .5px !important;
                 }
